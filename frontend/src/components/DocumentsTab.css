@@ -1,0 +1,181 @@
+.documents-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.upload-section {
+    padding: 2rem;
+    background: white;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.upload-area {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.upload-status {
+    padding: 0.75rem 1rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    font-size: 0.95rem;
+}
+
+.upload-status.success {
+    background: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+.upload-status.error {
+    background: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
+
+.db-info-box {
+    display: flex;
+    gap: 2rem;
+    padding: 0.75rem 1rem;
+    background: var(--hover-bg);
+    border-radius: 8px;
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+}
+
+.db-info-box strong {
+    color: var(--text-color);
+}
+
+.documents-list {
+    padding: 2rem;
+    background: white;
+    flex: 1;
+}
+
+.documents-list h3 {
+    margin: 0 0 1.5rem 0;
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+
+.loading-text,
+.empty-text {
+    color: var(--text-secondary);
+    text-align: center;
+    padding: 2rem;
+}
+
+/* Table Styles */
+.documents-table-wrapper {
+    overflow-x: auto;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+}
+
+.documents-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+}
+
+.documents-table thead {
+    background: var(--hover-bg);
+    border-bottom: 2px solid var(--border-color);
+}
+
+.documents-table th {
+    padding: 0.75rem 1rem;
+    text-align: left;
+    font-weight: 600;
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.documents-table tbody tr {
+    border-bottom: 1px solid var(--border-color);
+    transition: background-color 0.2s;
+}
+
+.documents-table tbody tr:hover {
+    background: var(--hover-bg);
+}
+
+.documents-table tbody tr:last-child {
+    border-bottom: none;
+}
+
+.documents-table td {
+    padding: 1rem;
+    font-size: 0.9rem;
+}
+
+.filename-cell {
+    max-width: 300px;
+}
+
+.filename {
+    font-weight: 500;
+    color: var(--text-color);
+    word-break: break-word;
+}
+
+.error-message-inline {
+    margin-top: 0.25rem;
+    font-size: 0.8rem;
+    color: #721c24;
+}
+
+.center-cell {
+    text-align: center;
+}
+
+.actions-cell {
+    text-align: center;
+}
+
+.status-badge {
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-weight: 500;
+    white-space: nowrap;
+    display: inline-block;
+}
+
+.status-completed {
+    background: #d4edda;
+    color: #155724;
+}
+
+.status-processing {
+    background: #fff3cd;
+    color: #856404;
+}
+
+.status-failed {
+    background: #f8d7da;
+    color: #721c24;
+}
+
+.delete-btn {
+    padding: 0.5rem 0.75rem;
+    background: transparent;
+    color: var(--text-secondary);
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    font-size: 0.875rem;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.delete-btn:hover {
+    background: #f8d7da;
+    border-color: #f5c6cb;
+    color: #721c24;
+}

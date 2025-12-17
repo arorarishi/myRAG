@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+python-multipart
+pydantic
+pydantic-settings
+sqlalchemy
+langchain-text-splitters
+faiss-cpu
+openai
+numpy

@@ -11,6 +11,14 @@ A full-stack RAG (Retrieval-Augmented Generation) application with document inde
 - ⚙️ Configurable embedding and LLM providers
 - 📊 Document management with status tracking
 
+## UI Screens 
+#### Screen 1 - Chat Window
+<img width="1740" height="851" alt="image" src="https://github.com/user-attachments/assets/8edaa13b-de34-4f1c-a321-6adf8d7eb9e4" />
+#### Screen 2 - Document Upload 
+<img width="1695" height="871" alt="image" src="https://github.com/user-attachments/assets/2d9e8ff2-99e7-40d5-a1b3-03c747c36589" />
+#### Screen 3 - Settings to Selct Model of You Ch0ice
+<img width="1920" height="1832" alt="RAG_Settings" src="https://github.com/user-attachments/assets/52cca639-47f8-4b71-bfa1-d3c163c90643" />
+
 ## Tech Stack
 
 **Backend:**
